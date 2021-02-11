@@ -7,14 +7,14 @@ body {
 }
 h1 {
   color: brown;
-  
+
 }
 #text {
   position: absolute;
   left: calc(54% - 500px);
   top: calc(45% - 100pt);
-  width: 1000px;
-  height: 200pt;
+  width: 50px;
+  height: 50pt;
   font-family: "Modak", cursive;
   font-size: 250pt;
   color: #FFB6C1;
