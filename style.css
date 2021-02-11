@@ -1,29 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Hannah's page for Interactions Lab and Studio </title>
-
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-  </head>
-  <body>
-    <h1>Hannah Hwang</h1>
-
-    <p>
-      Here is my <a href="lab-projects/lab.projects/review.html"> lab </a> folder <br><br>
-      Here is my <a href="studio-projects/studio.projects/interaction.and.typography.study.html"> studio </a> folder <br><br>
-    </p>
-
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js" defer></script>
-  </body>
-</html>
+body {
+  font-family: "Nerko One", cursive;
+  margin: 2em;
+  font-size: ;
+  color: black;
+}
+h1 {
+  color: brown
+}
+#text {
+  position: absolute;
+  left: calc(54% - 500px);
+  top: calc(45% - 100pt);
+  width: 1000px;
+  height: 200pt;
+  font-family: "Modak", cursive;
+  font-size: 250pt;
+  color: #FFB6C1;
+}
