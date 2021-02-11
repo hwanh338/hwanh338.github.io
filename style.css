@@ -2,20 +2,21 @@
 body {
   font-family: "Nerko One", cursive;
   margin: 2em;
-  font-size: ;
+  font-size: 30px;
   color: black;
 }
 h1 {
   color: brown;
+  font-size: 50px;
 
 }
 #text {
   position: absolute;
   left: calc(54% - 500px);
   top: calc(45% - 100pt);
-  width: 50px;
-  height: 50pt;
+  width: 1000px;
+  height: 200pt;
   font-family: "Modak", cursive;
-  font-size: 250pt;
+  
   color: #FFB6C1;
 }
