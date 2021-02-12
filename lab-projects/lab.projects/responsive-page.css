@@ -14,7 +14,10 @@ p{
   font-size: 1.25em
 
 }
-
+.container{
+  display: flex;
+  flex-direction: column;
+}
 @media screen and (min-width: 768px) {
   p {
       font-size: 3em;
@@ -30,4 +33,8 @@ p{
       font-size: 4em;
       color: yellow;
   }
+}
+.container{
+
+      flex-direction: row;
 }
