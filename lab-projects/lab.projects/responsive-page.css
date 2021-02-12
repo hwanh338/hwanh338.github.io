@@ -1,0 +1,33 @@
+body {
+    background: black
+    font-family: monospace;
+    padding: 20px
+    font-size: 16px
+    /* 16px = 1em */
+
+}
+
+
+p{
+  font-weight: bold;
+  color: mediumpurple;
+  font-size: 1.25em
+
+}
+
+@media screen and (min-width: 768px) {
+  p {
+      font-size: 3em;
+      color: green;
+  }
+  body{
+      padding: 50px;
+  }
+}
+
+@media screen and (min-width: 1042px) {
+  p {
+      font-size: 4em;
+      color: yellow;
+  }
+}
