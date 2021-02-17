@@ -52,12 +52,26 @@ h1 {
   position: absolute;
   width: 200px;
   height: 200px;
-  right: 0px;
-  bottom: 0px;
+  right: 500px;
+  bottom: 30px;
   border: 3px solid #000000;
   background-color: black;
-  font-size: 35px;
-  color: tan;
+  font-size: 205px;
   text-decoration-color: tan;
+  color: tan;
+  opacity: 0.5;
+}
+
+#accommodate {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 500px;
+  bottom: 60px;
+  border: 3px solid #000000;
+  background-color: black;
+  font-size: 105px;
+  text-decoration-color: tan;
+  color: tan;
   opacity: 0.5;
 }
