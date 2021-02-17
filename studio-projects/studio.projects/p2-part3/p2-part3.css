@@ -2,6 +2,7 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
+  background-color: black;
 }
 
 h1 {
@@ -9,6 +10,7 @@ h1 {
   color: #94c9dd;
 }
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
 
 .container {
   position: absolute;
@@ -21,7 +23,7 @@ h1 {
 }
 
 .header {
-  border: 3px solid green;
+  border: 3px solid black;
 }
 
 #header {
@@ -33,4 +35,15 @@ h1 {
   border: 3px solid #000000;
   background-color: tan;
   font-size: 48px;
+}
+
+#nextpage {
+  position: absolute;
+  width: 605px;
+  height: 60px;
+  right: 20px;
+  bottom: 90px;
+  border: 3px solid #000000;
+  background-color: tan;
+  font-size: 20px;
 }
