@@ -1,4 +1,6 @@
-
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
 
 
 
@@ -7,6 +9,9 @@ body
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  font-size: 20px;
+  text-align: center
+
 }
 ul
 {
@@ -29,7 +34,7 @@ ul li a
   height: 30px;
   line-height: 30px;
   font-size: 24px;
-  background: white;
+  background: yellow;
   width: 140px;
   color: black;
   margin: 4px 0;
