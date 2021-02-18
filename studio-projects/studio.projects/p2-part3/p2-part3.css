@@ -27,7 +27,7 @@ body{
   margin-bottom: 20px;
   background: black;
   position: relative;
-  animation: text 5s 1;
+  animation: text 3s 1;
 }
 .text2{
   font-size: 30px;
