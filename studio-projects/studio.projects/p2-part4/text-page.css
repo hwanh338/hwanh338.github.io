@@ -1,3 +1,7 @@
+
+
+
+
 body
 {
   margin: 0;
@@ -26,7 +30,7 @@ ul li a
   line-height: 30px;
   font-size: 24px;
   background: white;
-  wdith: 140px;
+  width: 140px;
   color: black;
   margin: 4px 0;
   padding-left: 15px;
@@ -64,7 +68,7 @@ ul li a:hover
   text-align: center;
   margin: 0;
   padding: 0;
-  font-size: 8em;
+  font-size: 4em;
   color: black;
 
 
@@ -73,26 +77,26 @@ ul li a:hover
 
 #container div#red
 {
-  color: red;
+  color: white;
 
 }
 
 #container div#green
 {
-  background: green;
+  background: #C7C7C7;
 }
 
 #container div#blue
 {
-  background: blue;
+  background: #A88D88;
 }
 
 #container div#yellow
 {
-  background: yellow;
+  background: #CEA59C;
 }
 
 #container div#magenta
 {
-  background: magenta;
+  background: #DCDCDC;
 }
