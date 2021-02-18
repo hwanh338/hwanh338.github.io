@@ -45,8 +45,8 @@ ul li a
 }
 ul li a:hover
 {
-  background: black
-  color: white
+  background: #262626;
+  color: #fff;
 
 }
 #container
