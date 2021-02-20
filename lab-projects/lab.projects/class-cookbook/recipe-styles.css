@@ -1,0 +1,22 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 2em;
+  font-size: 20px;
+  color: black;
+}
+h1 {
+  color: brown;
+  font-size: 50px;
+  font-family: "Verdana", sans-serif;
+}
+
+h3 {
+  color: powderblue;
+  font-family: "Helvetica", sans-serif;
+}
+
+.intro {
+  background-color: pink;
+  letter-spacing: normal;
+  text-shadow: red 2px 5px;
+}
