@@ -1,19 +1,25 @@
-body {
+h3 {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
-  background-color: black;
+  background-color: #f6b969;
+  color: #037272;
 
 }
 
 h1 {
   font-family: 'Abril Fatface', cursive;
-  font-size: 30px;
+  font-size: 50px;
   color: #bd959f;
+  background-color: #037272;
+  letter-spacing: 10px;
 }
 
 h2 {
 font-family: 'Montserrat Alternates', sans-serif;
 font-size: 20px;
+background-color: #bad4d2;
+color: #db8b8b;
+letter-spacing: 5px;
 }
 
 
