@@ -1,0 +1,27 @@
+.about-me-title {
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.card {
+    border: none;
+}
+
+.blur-in {
+    transition: all 0.2s ease;
+    -webkit-filter: blur(0px);
+}
+
+.blur-in:hover {
+    -webkit-filter: blur(12px);
+}
+
+.overlay a{
+    position: absolute;
+    margin-left: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    font-size: 40px;
+    margin-top: 2em;
+}
