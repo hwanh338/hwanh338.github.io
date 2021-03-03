@@ -20,6 +20,7 @@ h1 {
   position: absolute;
   left: 120px;
   top: 50px;
+  color: black;
 }
 
 h3 {
@@ -30,6 +31,7 @@ h3 {
   position: absolute;
   right: 120px;
   bottom: 150px;
+  color:black;
 }
 
 
@@ -39,7 +41,7 @@ h3 {
 .home-intro {
   padding: 50vh 0;
   background: white;
-  background-image: linear-gradient(white, black);
+
   color: white;
   text-align: center;
 
