@@ -1,0 +1,82 @@
+
+
+body {
+
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: white
+  overflow-x: hidden;
+  background: black;
+}
+
+h1 {
+  font-size: 68px;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  position: absolute;
+  left: 120px;
+  top: 50px;
+}
+
+h3 {
+
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  position: absolute;
+  right: 120px;
+  bottom: 150px;
+}
+
+
+
+
+
+.home-intro {
+  padding: 50vh 0;
+  background: white;
+  background-image: linear-gradient(white, black);
+  color: white;
+  text-align: center;
+
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
+.grid {
+  background: black;
+  color: white;
+  padding: 4em 0;
+  display: grid;
+
+  grid-template-columns: minmax(2em, 30fr) repeat(2, minmax(200px, 900px)) minmax(1em,30fr);
+}
+
+.from-left {
+  grid-column: 2 / 3;
+  transform: translateX(-50%);
+}
+
+.from-right {
+  grid-column: 3 / 4;
+  transform: translateX(50%);
+}
+
+.from-left,
+.from-right {
+  transition: opacity 250ms ease-in, transform 400ms ease-in;
+  opacity: 0;
+}
+
+.from-left.appear,
+.from-right.appear {
+  transform: translateX(0);
+  opacity: 1;
+}
