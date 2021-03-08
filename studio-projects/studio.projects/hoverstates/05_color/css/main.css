@@ -1,0 +1,56 @@
+
+html, body, * {
+    margin: 0 0 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	   }
+
+p {
+    font-size: 40px;
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+span:hover {
+    font-style: italic;
+    cursor: pointer;
+}
+
+.word1:hover {
+    color: #f90f02;
+}
+
+.word2:hover {
+    color: orange;
+}
+
+.word3:hover {
+    color: #f9d711;
+}
+
+.word4:hover {
+    color: #87c928;
+}
+
+.word5:hover {
+    color: olivedrab;
+}
+
+.word6:hover {
+    color: #0c56f4;
+}
+
+.word7:hover {
+    color: #232567;
+}
+
+.word8:hover {
+    color: purple;
+}

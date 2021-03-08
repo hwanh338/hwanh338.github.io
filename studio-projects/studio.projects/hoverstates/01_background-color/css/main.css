@@ -1,0 +1,31 @@
+body {
+    background-color: #ede2e8;
+}
+
+.text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 150px;
+    color: #004953;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.top, .bottom {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    padding: 0px;
+}
+
+.top:hover {
+    color: #e5aab3;
+    cursor: pointer;
+}
+
+
+.bottom:hover {
+    color: #e5aab3;
+    cursor: pointer;
+}

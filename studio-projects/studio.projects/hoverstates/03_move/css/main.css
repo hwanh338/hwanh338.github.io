@@ -1,0 +1,41 @@
+body {
+    background-color: #e8e1df;
+}
+
+.text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    color: #c9aa7f;
+}
+
+.top, .bottom {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+     border: 3px dotted #00878e;
+
+    padding: 20px;
+}
+.top{
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.bottom{
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.top:hover {
+    transform: translateX(-200px);
+    cursor: pointer;
+}
+
+
+.bottom:hover {
+    transform: translateX(200px);
+    cursor: pointer;
+}
