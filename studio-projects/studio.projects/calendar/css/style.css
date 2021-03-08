@@ -1,0 +1,67 @@
+h1{
+  color: #7eb8da;
+  font-family: 'Abril Fatface', cursive;
+
+}
+
+.week {
+  display: flex;
+
+}
+
+.DOTW {
+  display: flex;
+  max-width: 560px;
+  margin: 20px auto;
+  background-color: #6b6b6b;
+
+}
+
+
+.day {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+
+}
+
+.week:first-of-type .day:first-of-type {
+  margin-left: 42.85714%;
+
+}
+
+.week:last-of-type .day:last-of-type {
+  margin-right: 14.285%;
+
+}
+
+
+html, body {
+  height: 100%;
+  font-family: 'Abril Fatface', cursive;
+}
+
+
+.month {
+  max-width: 560px;
+  margin: 20px auto;
+  font-family: 'Abril Fatface', cursive;
+
+}
+
+.week {
+  height: 80px;
+  font-family: 'Abril Fatface', cursive;
+
+}
+
+.day {
+  color: #93c5cc;
+  padding: 5px;
+  background-color: transparentize(white, 0.30);
+  box-shadow:
+    -1px -1px #7eb8da,
+    inset -1px -1px 0 0 #7eb8da;
+    font-family: 'Abril Fatface', cursive;
+
+}
