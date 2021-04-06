@@ -1,0 +1,123 @@
+
+.container-class {
+    position: absolute;
+    background-image: url("https://c532f75abb9c1c021b8c-e46e473f8aadb72cf2a8ea564b4e6a76.ssl.cf5.rackcdn.com/2020/07/03/431hajfazt_prospectparkzoo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1200px;
+    height: 1200px;
+    background-size: 100% auto;
+    margin-left: 27px;
+    margin-right: 27px;
+    margin-top: 0px;
+}
+
+.barnsign{
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  right: 20%;
+  top: 32%;
+  border: 1px solid #000000;
+  background-color: orange;
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bigsign{
+  position: absolute;
+  width: 66px;
+  height: 40px;
+  right: 58.8%;
+  top: 32.5%;
+  border: 1px solid #000000;
+  background-color: green;
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.birdsign{
+  position: absolute;
+  width: 38px;
+  height: 18px;
+  right: 45.5%;
+  top: 29.8%;
+  border: 1px solid #000000;
+  background-color: white;
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.commonsign{
+  position: absolute;
+  width: 120px;
+  height: 18px;
+  right: 17%;
+  top: 49%;
+  border: 1px solid #000000;
+  background-color: green;
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mediumsign{
+  position: absolute;
+  width: 120px;
+  height: 20px;
+  right: 32.8%;
+  top: 32.5%;
+  border: 1px solid #000000;
+  background-color: lightblue;
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.seaanimalssign{
+  position: absolute;
+  width: 90px;
+  height: 20px;
+  right: 34%;
+  top: 52%;
+  border: 1px solid #000000;
+  background-color: lightblue;
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.smallsign{
+  position: absolute;
+  width: 55px;
+  height: 37px;
+  right: 23.3%;
+  top: 39.4%;
+  border: 1px solid #000000;
+  background-color: yellow;
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  max-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cards img {
+  margin: 10px;
+  border: 2px solid #white;
+  box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.3);
+  max-width: 23vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
