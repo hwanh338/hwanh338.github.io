@@ -1,0 +1,184 @@
+h1{
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  margin-top: 80px;
+}
+body{
+  background-color: #382c1f;
+  font-family: 'Abril Fatface', cursive;
+}
+
+
+
+
+.container-class {
+    position: absolute;
+    background-image: url("https://lh3.googleusercontent.com/ZSg9MRNJDLb7ygDBlkgOE8maCmIku-kpr_Nzyx876A9vciE6kSverT0CApK-ZOXRTn-XSYH8eZi9L4Iu9XGZURd32aJfQ0rI4EyHkuG29IIdHoosrv_eich7B9YwCWXeFWjzDMxzCyuXQsiGvzbplmW3fLX8QzhnMaOVQMWzc-qzLRuYHVsMeWyBhejtlnqICVcJ_AEWWwmYY3dRmZRXbiSTCr0ueFNsyIHxlywEtYm4ZCasldZVh_f4hzE6-kNOfE1_E0Lnjpjpzw_MCXhiAEbL-qip1GDN1zibtML2oxtLB7sM4zBaQ3Ll9vEkdt8uf0VX2cvfQF0zcLtUtIqQzfEJlFfmjeXTVrv9PkJxOA9dH6p3TPoXOoe1FE5OtcRhrKZbxTptiBx8_idRh4e2pjAyUlO017_LuYvtcmehk-z71f9EjskRx2HSqDrnii-kiAgE01wnHEuq59TxMJQzi7Rt_TkhIIUrP1ba4w_B2PC_PHAww20gMrb2mFTDPMeb1CH2yhFxHIeWPqsail9Bgy5ic1MZ3eKYVlON3AltWD4h9sz-i16eTl0aVXE4WHZw375mVnTjIK2G7uNzSy2qhxoMFWwJHLfSdbHbEXPU0y3aZ6piH-TCKTD0PJ4Y-oqKa5j-zZ8E0vVVSIPgdnlY3tka4MwBczKhGlUffYIUOlemBFA2CUmt0xe8a-GhzjMNU3OpI6olE-ahzTdsZFbQtfjy=w1200-h882-no?authuser=1");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1000px;
+    height: 1000px;
+    background-size: 100% auto;
+    margin-left: 140px;
+    margin-right: 27px;
+    margin-top: -70px;
+
+
+}
+
+.barnsign{
+  position: absolute;
+  width: 60px;
+  height: 100px;
+  right: 36%;
+  top: 35%;
+  background-color: #f39c80;
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Abril Fatface', cursive;
+
+}
+
+.bigsign{
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  right: 75%;
+  top: 71.5%;
+  background-color: #f39c80;
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.birdsign{
+  position: absolute;
+  width: 110px;
+  height: 18px;
+  right: 70.7%;
+  top: 34.5%;
+  background-color: #f39c80;
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.commonsign{
+  position: absolute;
+  width: 120px;
+  height: 35px;
+  right: 53%;
+  top: 50.5%;
+  background-color: #f39c80;
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.mediumsign{
+  position: absolute;
+  width: 70px;
+  height: 40px;
+  right: 37.5%;
+  top: 71.5%;
+  background-color: #f39c80;
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.seaanimalssign{
+  position: absolute;
+  width: 70px;
+  height: 40px;
+  right: 6.4%;
+  top: 68%;
+  background-color: #f39c80;
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.smallsign{
+  position: absolute;
+  width: 55px;
+  height: 42px;
+  right: 75%;
+  top: 53%;
+  background-color: #f39c80;
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  max-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cards img {
+  margin: 10px;
+  border: 2px solid white;
+  box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.3);
+  max-width: 23vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+ul
+{
+  position: absolute;
+  top: 370px;
+  right: 130px;
+  transform: translateY(-50%);
+  margin: 2px;
+  padding: 2;
+  z-index: 1;
+}
+ul li
+{
+  list-style: none;
+}
+ul li a
+{
+  display: block;
+  text-decoration: none;
+  height: 40px;
+  line-height: 30px;
+  font-size: 18px;
+  background: #7FFFFFFF
+  width: 300px;
+  color: black;
+  margin: 4px 0;
+  text-transform: uppercase;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  text-align: right;
+
+}
+ul li a:hover
+{
+  background: black;
+  color: #fff;
+
+}
