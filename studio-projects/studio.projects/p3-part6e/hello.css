@@ -6,22 +6,31 @@ h1{
 body{
   background-color: #382c1f;
   font-family: 'Abril Fatface', cursive;
+  text-transform: uppercase;
 }
 
 
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: black;
+}
 
 
 .container-class {
     position: absolute;
-    background-image: url("https://dl.airtable.com/.attachmentThumbnails/b3581bb6ccf29c1a4d3be7b1243f4b4c/e987f5cc");
+    background-image: url("https://dl.airtable.com/.attachmentThumbnails/e5a99aced46c0c1cb32df479a133c7fe/812ef66e");
     background-repeat: no-repeat;
     background-position: center;
-    width: 1000px;
-    height: 1000px;
+    width: 1300px;
+    height: 1200px;
+    color: white;
     background-size: 100% auto;
-    margin-left: 140px;
+    margin-left: 0px;
     margin-right: 27px;
-    margin-top: -70px;
+    margin-top: 0px;
 
 
 }
@@ -33,89 +42,104 @@ body{
   right: 36%;
   top: 35%;
   background-color: #f39c80;
-  color: blue;
+  color: white;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Abril Fatface', cursive;
+  text-transform: uppercase;
+  text-decoration: none;
 
 }
 
 .bigsign{
   position: absolute;
-  width: 40px;
-  height: 20px;
-  right: 75%;
-  top: 71.5%;
+  width: 55px;
+  height: 30px;
+  right: 74.9%;
+  top: 73.4%;
   background-color: #f39c80;
-  color: blue;
+  color: white;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
   font-family: 'Abril Fatface', cursive;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .birdsign{
   position: absolute;
   width: 110px;
   height: 18px;
-  right: 70.7%;
-  top: 34.5%;
+  right: 72.2%;
+  top: 33%;
   background-color: #f39c80;
-  color: blue;
+  color: white;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Abril Fatface', cursive;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .commonsign{
   position: absolute;
-  width: 120px;
-  height: 35px;
-  right: 53%;
-  top: 50.5%;
+  width: 110px;
+  height: 60px;
+  right: 55%;
+  top: 50%;
   background-color: #f39c80;
-  color: blue;
+  color: white;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Abril Fatface', cursive;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .mediumsign{
   position: absolute;
-  width: 70px;
+  width: 90px;
   height: 40px;
   right: 37.5%;
-  top: 71.5%;
+  top: 73.5%;
   background-color: #f39c80;
-  color: blue;
+  color: white;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Abril Fatface', cursive;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .seaanimalssign{
   position: absolute;
-  width: 70px;
+  width: 0px;
   height: 40px;
-  right: 6.4%;
+  right: 14%;
   top: 68%;
   background-color: #f39c80;
-  color: blue;
+  color: white;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Abril Fatface', cursive;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .smallsign{
   position: absolute;
   width: 55px;
   height: 42px;
-  right: 75%;
+  right: 76%;
   top: 53%;
   background-color: #f39c80;
-  color: blue;
+  color: white;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Abril Fatface', cursive;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .cards {
