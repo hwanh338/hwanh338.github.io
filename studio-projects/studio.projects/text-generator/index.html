@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+	<title>Sentence Generator</title>
+<center><img src="https://www.looneylabs.com/sites/default/files/marketing_images/MadLibsTheGameLogo.png" alt="Flowers in Chania"></center>
+	<!--
+	***** START CSS *****
+	-->
+	<style>
+
+		/* You can change the colors, font, and so on below */
+
+		body {
+			margin: 75px;
+			font-size: 100px;
+      background-image: url("https://image.shutterstock.com/image-photo/notebook-paper-background-260nw-415456504.jpg");
+      background-size: cover;
+    }
+
+		.button-container {
+			position: fixed;
+			bottom: 75px;
+			right: 75px;
+		}
+
+		.list-one {
+			color: gray;
+      font-family: 'Indie Flower', cursive;
+      text-decoration: underline;
+      text-decoration-color:red;
+		}
+
+		.list-two {
+			color: gray;
+      font-family: 'Indie Flower', cursive;
+      text-decoration: underline;
+      text-decoration-color:red;
+		}
+
+        .list-three {
+			color: gray;
+      font-family: 'Indie Flower', cursive;
+      text-decoration: underline;
+      text-decoration-color:red;
+		}
+
+	</style>
+	<!--
+	***** END CSS *****
+	-->
+
+
+	<!--
+	***** START JAVASCRIPT *****
+	-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			// list one content
+			var one = [
+				"cute",
+				"grumpy",
+				"rude",
+				"bitchy",
+				"awkward",
+				"small",
+				"stinky",
+				"smelly",
+				"ugly",
+				"fat",
+				"old",
+				"happy",
+				"lovable",
+				"smart",
+				"tired",
+			];
+
+			// list two content
+			var two = [
+				"boy",
+				"girl",
+				"grandma",
+				"grandpa",
+				"baby",
+				"sheep",
+				"dog",
+				"clown",
+				"fish",
+				"waiter",
+				"elephant",
+				"murderer",
+				"students",
+				"goat",
+				"prince",
+			];
+
+            // list three content
+			var three = [
+				"airport",
+				"bathroom",
+				"library",
+				"concert",
+        "pool",
+				"beach",
+				"outhouse",
+				"mall",
+        "swamp",
+				"doctors",
+				"castle",
+        "bar",
+				"club",
+				"bathroom"
+			];
+
+
+			// This is a very common randomizing function.
+			// It takes a list (array) and returns one at random.
+			function select_random(x){
+				y = x[Math.floor(Math.random()*x.length)];
+				return y;
+			}
+
+			function generate(){
+
+				// Select a random item from each list
+				var selected_one = select_random(one);
+				var selected_two = select_random(two);
+                var selected_three = select_random(three);
+
+				// Take the selected (random) item from list and make it visible
+				$('.list-one').html(selected_one);
+				$('.list-two').html(selected_two);
+                $('.list-three').html(selected_three);
+
+			}
+
+			$('button').click(function(){
+				generate();
+			});
+
+			generate();
+
+		});
+
+	</script>
+	<!--
+	***** END JAVASCRIPT *****
+	-->
+
+</head>
+
+<body>
+
+	<!--
+	This is the button.
+	-->
+	<div class="button-container">
+		<button>Generate!</button>
+	</div>
+
+
+
+
+
+
+	<!--
+	This is the visible portion.
+
+	If you want your words or phrases to go side-by-side, use...
+
+	<span></span>
+
+    if you want your words or phrases to stack vertically, use...
+
+    <div></div>
+
+	in the code below.
+	-->
+	The <span class="list-one"></span> <span class="list-two"></span> will go to the <span class="list-three"></span>.
+
+</body>
+
+</html>

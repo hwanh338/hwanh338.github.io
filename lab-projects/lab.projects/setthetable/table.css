@@ -1,0 +1,106 @@
+html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, font, ins, kbd, q, s, samp, 
+small, strike, sub, var,
+ dl, dd, dt, ul, ol, li,
+ fieldset, form, table, caption, tbody, 
+tfoot, thead, tr, th, td, header, section,
+footer, article, details {
+ padding: 0; margin: 0; border: 0; outline: 0;
+ font-family: inherit; font-style: inherit; font-size:
+ 100%; font-weight: inherit; vertical-align: baseline;
+ }
+
+body {
+  background-color: white;
+}
+
+.container {
+  position: relative;
+  margin: 80px auto;
+  height: 100vh;
+  width: 100%;
+}
+
+#top {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.tablecloth, .wine1, .wine2, .plate1, .plate2, .lasagna1, .lasagna2, .basket, .bread, .bottle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.tablecloth {
+  width: 85%;
+  height: 85vh;
+  z-index: 8;
+  right: 0;
+  margin: 0 auto;
+}
+
+.wine1, .wine2, .plate1, .plate2, .lasagna1, .lasagna2, .basket, .bread, .bottle {
+  z-index: 10;
+}
+
+.wine1 {
+  display: none;
+  height: 200px;
+  left: 29%;
+  top: 30%;
+}
+
+.wine2 {
+  display: none;
+  height: 200px;
+  left: 63%;
+  top: 1%;
+}
+
+.plate1 {
+  width: 250px;
+  left: 10%;
+  top: 33%;
+}
+
+.plate2 {
+  width: 250px;
+  left: 65%;
+  top: 33%;
+}
+
+.lasagna1 {
+  width: 150px;
+  left: 14%;
+  top: 30%;
+}
+
+.lasagna2 {
+  width: 150px;
+  left: 69%;
+  top: 30%;
+}
+
+.basket {
+  width: 300px;
+  left: 40%;
+  top: 40%;
+}
+
+.bread {
+  width: 200px;
+  left: 45%;
+  top: 40%;
+}
+
+.bottle {
+  display: none;
+  width: 230px;
+  left: 30%;
+  top: 3%;
+}
