@@ -1,0 +1,176 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+    max-width: 960px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    align-content: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 62.5%;
+    background-image: url("https://ak.picdn.net/shutterstock/videos/5329904/thumb/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main,
+.birth-date,
+.horo-section {
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+
+}
+h1,
+p,
+img,
+button,
+input {
+    color: white;
+    text-align: center;
+    line-height: 2.1rem;
+}
+h1 {
+    font-size: 2rem;
+}
+p {
+    font-size: 1.6rem;
+}
+img {
+    font-family: sans-serif;
+    font-size: 1.4rem;
+}
+button,
+input {
+    font-size: 1rem;
+    color: black;
+}
+button {
+    background-color: #black;
+    border: 1px solid #white;
+    padding: 1rem;
+}
+.date-btn {
+	margin-top: 1.5rem;
+}
+.zodiac {
+    height: 1.6rem;
+    margin: 0 0 3rem 0;
+}
+.reset {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.hidden {
+    display: none;
+}
+
+
+.fade-out {
+  animation: fadeOut 2000ms ease forwards;
+  -webkit-animation: fadeOut 2000ms ease forwards;
+  -moz-animation: fadeOut 2000ms ease forwards;
+  -o-animation: fadeOut 2000ms ease forwards;
+  -ms-animation: fadeOut 2000ms ease forwards;
+}
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-o-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-ms-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+}
+}
+
+
+.fade-in {
+  animation: fadeIn 1000ms ease forwards;
+  -webkit-animation: fadeIn 1000ms ease forwards;
+  -moz-animation: fadeIn 1000ms ease forwards;
+  -o-animation: fadeIn 1000ms ease forwards;
+  -ms-animation: fadeIn 1000ms ease forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}

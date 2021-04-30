@@ -1,6 +1,6 @@
 
 body {
-  font-family: "Nerko One", cursive;
+
   margin: 2em;
   font-size: 30px;
   color: black;
@@ -10,4 +10,8 @@ h1 {
   color: brown;
   font-size: 50px;
 
+}
+
+p{
+  font-size: 15px;
 }

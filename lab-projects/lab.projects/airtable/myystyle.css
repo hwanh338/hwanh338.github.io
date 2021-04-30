@@ -1,0 +1,53 @@
+body {
+  background-color: white;
+  width: 100%;
+
+}
+.container {
+  position: relative;
+  margin: 80px auto;
+  height: 500px;
+  width: 800px;
+}
+.blanket {
+  position:relative;
+  top:0;
+  left:0;
+  display:block;
+}
+
+.cheese{
+  position:absolute;
+  left:480px;
+  top:300px;
+}
+
+.plate{
+  position:absolute;
+  left:280px;
+  top:100px;
+}
+
+.glass{
+  position:absolute;
+  right:300px;
+  top:100px;
+}
+
+.basket{
+  position:absolute;
+  left:120px;
+  top:40px;
+}
+
+.fruit{
+  position:absolute;
+  left:150px;
+  top:90px;
+}
+
+.toast{
+  position:absolute;
+  top:300px;
+  left:50px;
+}
