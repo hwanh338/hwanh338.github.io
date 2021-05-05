@@ -12,10 +12,16 @@ body {
     font-family: 'Berkshire Swash', cursive;
     font-size: 62.5%;
     text-align:center;
-    background-color: white;
     border-color: purple;
     border-style: dotted;
     margin-top: 60px;
+    background-color: #090409;
+    background-image: linear-gradient(0deg, #090409 0%, #676b93 50%, #ffffff 100%);
+    background-repeat: no-repeat;
+
+
+
+
     }
 
     .card {
@@ -29,6 +35,15 @@ body {
       font-size: 62.5%;
       text-align:center;
     }
+
+
+
+
+
+
+
+
+
 
     .card > label {
       cursor: pointer;
@@ -130,6 +145,29 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 h1,
 p,
@@ -165,10 +203,6 @@ button {
   font-family: 'Berkshire Swash', cursive;
   color: black;
 }
-
-
-
-
 
 .date-btn {
 	margin-top: 1.5rem;

@@ -4,77 +4,76 @@ const zodiacs = {
       zodiac: "Aries",
       fromDate: 321,
       toDate: 420,
-      img: "img/aries.jpg",
       alt: "Symbol for Aries, a ram"
   },
     1: {
         zodiac: "Aries",
         fromDate: 0321,
         toDate: 0420,
-        img: "img/aries.jpg",
+
         alt: "Symbol for Aries, a ram"
     },
     2: {
         zodiac: "Taurus",
         fromDate: 0421,
         toDate: 0520,
-        img: "img/taurus.jpg",
+
         alt: "Symbol for Taurus, a bull"
     },
     3: {
         zodiac: "Gemini",
         fromDate: 0521,
         toDate: 0620,
-        img: "img/gemini.jpg",
+
         alt: "Symbol for Gemini, twins"
     },
     4: {
         zodiac: "Cancer",
         fromDate: 0621,
         toDate: 0722,
-        img: "img/cancer.jpg",
+
         alt: "Symbol for Cancer, a crab"
     },
     5: {
         zodiac: "Leo",
         fromDate: 0723,
         toDate: 0822,
-        img: "img/leo.jpg",
+
         alt: "Symbol for Leo, a lion"
     },
     6: {
         zodiac: "Virgo",
         fromDate: 0823,
         toDate: 0922,
-        img: "img/virgo.jpg",
+
         alt: "Symbol for Virgo, a maiden"
     },
     7: {
         zodiac: "Libra",
         fromDate: 0923,
         toDate: 1022,
-        img: "img/libra.jpg",
+
         alt: "Symbol for Libra, scales"
     },
     8: {
         zodiac: "Scorpio",
         fromDate: 1023,
         toDate: 1122,
-        img: "img/scorpio.jpg",
+
         alt: "Symbol for Scorpio, a scorpion"
     },
     9: {
         zodiac: "Sagittarius",
         fromDate: 1123,
         toDate: 1221,
-        img: "img/sagittarius.jpg",
+
         alt: "Symbol for Sagittarius, a centaur"
     },
     10: {
         zodiac: "Capricorn",
         fromDate: 1222,
         toDate: 0119,
-        img: "img/capricorn.jpg",
+
         alt: "Symbol for Capricorn, a goat"
     },
 
@@ -82,14 +81,14 @@ const zodiacs = {
         zodiac: "Aquarius",
         fromDate: 0120,
         toDate: 0219,
-        img :"img/aquarius.jpg",
+
         alt: "Symbol for Aquarius, a water bearer"
     },
     12: {
         zodiac: "Pisces",
         fromDate: 0220,
         toDate: 0320,
-        img: "img/pisces.jpg",
+
         alt: "Symbol for Pisces, a fish"
     }
 };

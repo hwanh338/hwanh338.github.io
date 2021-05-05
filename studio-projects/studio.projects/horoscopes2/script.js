@@ -4,77 +4,77 @@ const zodiacs = {
       zodiac: "Aries",
       fromDate: 321,
       toDate: 420,
-      img: "img/aries.jpg",
+      img: "img/ariesemoji.jpg",
       alt: "Symbol for Aries, a ram"
   },
     1: {
         zodiac: "Aries",
         fromDate: 0321,
         toDate: 0420,
-        img: "img/aries.jpg",
+        img: "img/ariesemoji.jpg",
         alt: "Symbol for Aries, a ram"
     },
     2: {
         zodiac: "Taurus",
         fromDate: 0421,
         toDate: 0520,
-        img: "img/taurus.jpg",
+        img: "img/taurusemoji.jpg",
         alt: "Symbol for Taurus, a bull"
     },
     3: {
         zodiac: "Gemini",
         fromDate: 0521,
         toDate: 0620,
-        img: "img/gemini.jpg",
+        img: "img/geminiemoji.jpg",
         alt: "Symbol for Gemini, twins"
     },
     4: {
         zodiac: "Cancer",
         fromDate: 0621,
         toDate: 0722,
-        img: "img/cancer.jpg",
+        img: "img/canceremoji.jpg",
         alt: "Symbol for Cancer, a crab"
     },
     5: {
         zodiac: "Leo",
         fromDate: 0723,
         toDate: 0822,
-        img: "img/leo.jpg",
+        img: "img/leoemoji.jpg",
         alt: "Symbol for Leo, a lion"
     },
     6: {
         zodiac: "Virgo",
         fromDate: 0823,
         toDate: 0922,
-        img: "img/virgo.jpg",
+        img: "img/virgoemoji.jpg",
         alt: "Symbol for Virgo, a maiden"
     },
     7: {
         zodiac: "Libra",
         fromDate: 0923,
         toDate: 1022,
-        img: "img/libra.jpg",
+        img: "img/libraemoji.jpg",
         alt: "Symbol for Libra, scales"
     },
     8: {
         zodiac: "Scorpio",
         fromDate: 1023,
         toDate: 1122,
-        img: "img/scorpio.jpg",
+        img: "img/scorpioemoji.jpg",
         alt: "Symbol for Scorpio, a scorpion"
     },
     9: {
         zodiac: "Sagittarius",
         fromDate: 1123,
         toDate: 1221,
-        img: "img/sagittarius.jpg",
+        img: "img/sagittariusemoji.jpg",
         alt: "Symbol for Sagittarius, a centaur"
     },
     10: {
         zodiac: "Capricorn",
         fromDate: 1222,
         toDate: 0119,
-        img: "img/capricorn.jpg",
+        img: "img/capricornemoji.jpg",
         alt: "Symbol for Capricorn, a goat"
     },
 
@@ -82,14 +82,14 @@ const zodiacs = {
         zodiac: "Aquarius",
         fromDate: 0120,
         toDate: 0219,
-        img :"img/aquarius.jpg",
+        img :"img/aquariusemoji.jpg",
         alt: "Symbol for Aquarius, a water bearer"
     },
     12: {
         zodiac: "Pisces",
         fromDate: 0220,
         toDate: 0320,
-        img: "img/pisces.jpg",
+        img: "img/piscesemoji.jpg",
         alt: "Symbol for Pisces, a fish"
     }
 };
@@ -262,4 +262,106 @@ function setHoro(ranNum) {
 
 function resetHoro() {
     document.querySelector(".horoscope").innerText = "";
+}
+
+
+var width = 300;
+var height = 250;
+
+
+var banner = document.querySelector("#banner");
+var baseStar = document.querySelector(".star");
+
+var frag = document.createDocumentFragment();
+/*Creating fragment:
+Appending a star directly to the banner element will trigger a reflow. There are 300 stars, so appending them one at a time could trigger 300 reflows. That does not include any additional reflows or repaints that might be caused by changing the initial style for each star. By appending all the stars to a document fragment, modifying them on there, and then adding it to the banner element will trigger only 1 reflow and repaint.*/
+
+var appearMin = 0.3;
+var appearMax = 0.8;
+
+var delayMin = 2;
+var delayMax = 6;
+
+var durationMin = 0.3;
+var durationMax = 1;
+
+var numAnimations = 50;
+var numStars = 300;
+
+var stars = [];
+var eases = [];
+
+for (var i = 0; i < numAnimations; i++) {
+
+  var ease = new RoughEase({
+    template:  Linear.easeNone,
+    strength: random(1, 3),
+    points: Math.floor(random(50, 200)),
+    taper: "both",
+    randomize: true,
+    clamp: true
+  });
+
+  eases.push(ease);
+}
+
+// Wait for images to load
+window.addEventListener("load", onLoad);
+
+function onLoad() {
+
+  for (var i = 0; i < numStars; i++) {
+    stars.push(createStar());
+  }
+
+  document.body.removeChild(baseStar);
+  banner.appendChild(frag);
+}
+
+function createStar() {
+  // var index = random(textures.length)|0;
+  // var star = textures[index].cloneNode(true);
+  var star = baseStar.cloneNode(true);
+  frag.appendChild(star);
+
+  TweenLite.set(star, {
+    rotation: random(360),
+    xPercent: -50,
+    yPercent: -50,
+    scale: 0,
+    x: random(width),
+    y: random(height),
+  });
+
+  var tl = new TimelineMax({ repeat: -1, yoyo: true });
+
+  for (var i = 0; i < numAnimations; i++) {
+
+    var ease1 = eases[Math.floor(random(numAnimations))];
+    var ease2 = eases[Math.floor(random(numAnimations))];
+
+    var alpha = random(0.7, 1);
+    var scale = random(0.15, 0.4);
+
+    var appear = "+=" + random(appearMin, appearMax);
+    var delay = "+=" + random(delayMin, delayMax);
+    var duration1 = random(durationMin, durationMax);
+    var duration2 = random(durationMin, durationMax);
+
+    tl.to(star, duration1, { autoAlpha: alpha, scale: scale, ease: ease1 }, delay)
+      .to(star, duration2, { autoAlpha: 0, scale: 0, ease: ease2 }, appear)
+  }
+
+  tl.progress(random(1));
+
+  return {
+    element: star,
+    timeline: tl
+  };
+}
+
+function random(min, max) {
+  if (max == null) { max = min; min = 0; }
+  if (min > max) { var tmp = min; min = max; max = tmp; }
+  return min + (max - min) * Math.random();
 }

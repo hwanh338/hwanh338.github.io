@@ -12,10 +12,11 @@ body {
     font-family: 'Berkshire Swash', cursive;
     font-size: 62.5%;
     text-align:center;
-    background-color: white;
+    background-color: black;
     border-color: purple;
     border-style: dotted;
     margin-top: 60px;
+    color: white;
     }
 
     .card {
@@ -136,7 +137,7 @@ p,
 img,
 button,
 input {
-    color: black;
+    color: purple;
     text-align: center;
     line-height: 2.1rem;
 }
