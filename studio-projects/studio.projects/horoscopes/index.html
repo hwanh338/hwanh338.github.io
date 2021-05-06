@@ -5,71 +5,61 @@
     	<meta name="description" content="This is where your description goes">
     	<meta name="keywords" content="one, two, three">
 
-		<title>Horoscope1</title>
+		<title>Horoscope</title>
 
 
-		<link rel="stylesheet" href="css/normalize.css">
+
 		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="mystyles.css">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+
 	</head>
-	<body>
 
+<body>
+  <div class="col-md-12">
+    <div class="info">
+      <i class="icon-info-sign"></i>
 
+      <span class="extra-info">
+        <br>
+       &emsp; &emsp;
+      Enter your birthday and find out what 2021 has in store for you! Source: <a href="https://www.allure.com/story/2021-horoscope-yearly-predictions">Allure</a>
 
-
-
-
-		<div class="main">
-			<h1>Find out what 2021 has in store for you!</h1>
-
-			<div class="date-section">
-				<p>First input your day of birth to find your zodiac sign:</p>
-				<div class="birth-date">
-					<input class="date-input" type="text" placeholder="mm/dd"></input>
-					<button class="date-btn" type="button">Find out your zodiac</button>
-				</div>
-				<p class="error"></p>
-			</div>
-			<div class="zodiac-section hidden">
-				<p>Your zodiac sign is:</p>
-				<p class="zodiac"></p>
-				<button class="gen-horoscope" type="button">Find out your horoscope</button>
-			</div>
-			<div class="horo-section hidden">
-				<img class="image" src="" alt="Personification of Libra zodiac sign" height="280px">
-				<p class="horoscope"></p>
-				<button class="reset" type="button">Return</button>
-			</div>
-		</div>
-
-		<script type="text/javascript" src="script.js"></script>
-
+      </span>
     </div>
 
-    <div class="card">
-      <label for="hint-click">
-        <input type="checkbox" id="hint-click" style="display: none;" >
-        <div class="hint">
-          <span class="fa fa-info"></span>
-          <p>Input your birthday to find out your horoscope sign, then
-          we will tell you your daily sign from the stars!</p>
-        </div>
-      </label>
-
-      <p>Click on the purple dot for more info</p>
-    </div>
+</div>
+</body>
 
 
+  <div id = "box">
+  <h1> Your 2021 predictions</h1>
+  </div>
+  <h5> Enter your birthday </h5>
+  <p>Month:<input type="number" id="month" min="1" max="12" >
+  Day:<input type="number" id="day" min="1" max="31"></p>
+  <a id="animated" onclick="zodiac()"  class="button">Find your zodiac sign</a>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <p id="photo"></p>
+  <p id= "space"> Your zodiac sign is... <span id="output"></span> </p>
+  <p id="characteristic"></p>
+
+<body>
+
+</body>
 
 
 
 
-
-	</body>
-
-
-
-
-
+  <script type="text/javascript" src="script.js"></script>
 </html>
