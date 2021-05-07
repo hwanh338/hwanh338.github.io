@@ -1,8 +1,25 @@
 body{
   margin: 0;
   padding: 0;
-  background: #white;
+
+  font-family: 'Indie Flower', cursive;
 }
+
+p{
+  font-family: 'Indie Flower', cursive;
+}
+
+h1{
+  font-family: 'Indie Flower', cursive;
+  margin-top: 20px;
+  background: none;
+}
+
+.btn {
+  width: 120px;
+  height: 50px;
+}
+
 .slidershow{
   width: 700px;
   height: 400px;
@@ -32,6 +49,9 @@ body{
 .bar:hover{
   background: #fff;
 }
+
+
+
 
 input[name="r"]{
     position: absolute;

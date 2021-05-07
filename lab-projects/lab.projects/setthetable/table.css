@@ -1,106 +1,64 @@
-html, body, div, span, applet, object, iframe,
- h1, h2, h3, h4, h5, h6, p, blockquote, pre,
- a, abbr, acronym, address, big, cite, code,
- del, dfn, em, font, ins, kbd, q, s, samp, 
-small, strike, sub, var,
- dl, dd, dt, ul, ol, li,
- fieldset, form, table, caption, tbody, 
-tfoot, thead, tr, th, td, header, section,
-footer, article, details {
- padding: 0; margin: 0; border: 0; outline: 0;
- font-family: inherit; font-style: inherit; font-size:
- 100%; font-weight: inherit; vertical-align: baseline;
- }
-
 body {
-  background-color: white;
+  background-image: url("https://i.pinimg.com/originals/53/a5/dc/53a5dc7c225ed38115876a920c96f703.jpg");
+  width: 100%;
 }
 
 .container {
   position: relative;
   margin: 80px auto;
-  height: 100vh;
-  width: 100%;
+  height: 400px;
+  width: 90%;
 }
 
-#top {
-  margin: 0 auto;
-  width: 100%;
-  text-align: center;
-}
-
-.tablecloth, .wine1, .wine2, .plate1, .plate2, .lasagna1, .lasagna2, .basket, .bread, .bottle {
+.tablecloth, .cup {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   display: block;
 }
 
+
+
 .tablecloth {
-  width: 85%;
-  height: 85vh;
   z-index: 8;
-  right: 0;
-  margin: 0 auto;
 }
 
-.wine1, .wine2, .plate1, .plate2, .lasagna1, .lasagna2, .basket, .bread, .bottle {
+
+.fork {
+  position: absolute;
+  top: 580px;
+  left: 220px;
+  z-index: 10;
+  width: 750px;
+}
+.cloth {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.cup, .fork {
+  width: 80px;
+  height: 150px;
+  width: 150px;
   z-index: 10;
 }
 
-.wine1 {
+.plate {
+  position: absolute;
+  top: 180px;
+  left: 320px;
+  z-index: 10;
+  width: 350px;
+
+}
+
+
+.grapes {
   display: none;
-  height: 200px;
-  left: 29%;
-  top: 30%;
-}
-
-.wine2 {
-  display: none;
-  height: 200px;
-  left: 63%;
-  top: 1%;
-}
-
-.plate1 {
-  width: 250px;
-  left: 10%;
-  top: 33%;
-}
-
-.plate2 {
-  width: 250px;
-  left: 65%;
-  top: 33%;
-}
-
-.lasagna1 {
-  width: 150px;
-  left: 14%;
-  top: 30%;
-}
-
-.lasagna2 {
-  width: 150px;
-  left: 69%;
-  top: 30%;
-}
-
-.basket {
-  width: 300px;
-  left: 40%;
-  top: 40%;
-}
-
-.bread {
-  width: 200px;
-  left: 45%;
-  top: 40%;
-}
-
-.bottle {
-  display: none;
-  width: 230px;
-  left: 30%;
-  top: 3%;
+  position: absolute;
+  top: 180px;
+  left: 320px;
+  z-index: 10;
+  width: 350px;
 }
