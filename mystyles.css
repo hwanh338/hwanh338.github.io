@@ -1,0 +1,44 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(230, 181, 225);
+  overflow: hidden;
+}
+section h2 {
+  font-size: 3em;
+  font-family: arial;
+  text-transform: uppercase;
+  opacity: 0.5;
+  letter-spacing: 5px;
+}
+section div {
+  border-radius: 50%;
+  position: absolute;
+  bottom: -100px;
+  box-shadow: 0px 0px 5px white, inset 0px 0px 5px white;
+  animation: name 1.5s ease-in;
+}
+@keyframes name {
+  100% {
+    transform: translate(0, -700px);
+  }
+}
+section div::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  transform: scale(0.15) translate(-150%, -150%);
+  box-shadow: 0px 0px 20px white, inset 0px 0px 120px white;
+}
