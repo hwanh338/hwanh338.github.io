@@ -24,6 +24,14 @@ body {
 
 /* header */
 
+
+h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  margin-left: 60px;
+}
+
+
 nav {
   min-height: 10vh;
   width: 90%;
@@ -39,6 +47,7 @@ nav {
 }
 
 /* main */
+
 
 .page {
   min-height: 90vh;
