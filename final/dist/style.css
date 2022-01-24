@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&display=swap');
 
 :root {
   --white: rgba(255, 255, 255, 0.9);
@@ -13,13 +14,13 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
   font-weight: 200;
 }
 
 .portfolio {
   color: var(--white);
-  background: radial-gradient(rgba(43, 55, 96, 1), rgba(11, 16, 35, 1));
+  background: radial-gradient(rgba(23, 55, 96, 1), rgba(11, 16, 35, 1));
 }
 
 /* header */
@@ -29,6 +30,7 @@ h1 {
   font-size: 4rem;
   font-weight: 500;
   margin-left: 60px;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 
@@ -70,7 +72,9 @@ nav {
   height: 500px;
   align-self: center;
   justify-self: center;
-  display: flex;
+  /* display: flex; */
+  position: absolute;
+  margin: 0 auto;
 }
 
 .hero img {
@@ -79,16 +83,20 @@ nav {
 }
 
 .model-right {
-  transform: translate(0%, 10%);
+  transform: translate(-1%, 10%);
 }
 
 .model-left {
-  transform: translate(0%, -10%);
+  transform: translate(1%, -10%);
 }
 
-.hero:hover .model-right,
+.hero:hover .model-right {
+  transform: translate(-1%, .1%);
+
+}
+
 .hero:hover .model-left {
-  transform: translate(0%, 0%);
+  transform: translate(1%, 0%);
 }
 
 .details {
@@ -203,7 +211,7 @@ nav {
 
 /* media queries */
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .page {
     grid-template-columns: 5% 1fr 5%;
     grid-template-rows: 2fr 1fr;
@@ -246,4 +254,17 @@ nav {
   .details h2 {
     font-size: 1.75rem;
   }
+} */
+
+h1 {
+  font-size: 4rem;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+p{
+
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+h4{
+
+  font-family: 'Montserrat Alternates', sans-serif;
 }

@@ -3,9 +3,9 @@ function init() {
   const slides = document.querySelectorAll(".slide");
   const pages = document.querySelectorAll(".page");
   const backgrounds = [
-    `radial-gradient(#2B3760, #0B1023)`,
-    `radial-gradient(#4E3022, #161616)`,
-    `radial-gradient(#4E4342, #161616)`,
+    `radial-gradient(#984c38, #d6b7af)`,
+    `radial-gradient(#9e69b7, #d8c3e2)`,
+    `radial-gradient(#c18468, #e6cec3)`,
   ];
   let current = 0;
   let scrollSlide = 0;

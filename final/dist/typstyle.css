@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&display=swap');
+
 * {
   box-sizing: border-box;
   object-fit: contain;
@@ -53,7 +55,7 @@ ul {
   top: 0;
   left: 0.5rem;
   padding: 0.25rem;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round"><path d="M7 2 L2 5 L7 8" /></svg>');
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round"><path d="M7 2 L2 5 L7 8" /></svg>');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -66,7 +68,7 @@ ul {
 .wrapper::after {
   left: auto;
   right: 0.5rem;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round"><path d="M2 2 L7 5 L2 8" /></svg>');
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round"><path d="M2 2 L7 5 L2 8" /></svg>');
   object-fit: contain;
 }
 
@@ -124,4 +126,13 @@ ul {
 
 .carousel__nav a:hover {
 
+}
+
+h1 {
+
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+p{
+
+  font-family: 'Montserrat Alternates', sans-serif;
 }
